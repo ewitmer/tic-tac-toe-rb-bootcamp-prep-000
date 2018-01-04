@@ -118,6 +118,6 @@ def play(board)
   end
   if won?(board) != false
     game_winner = winner(board)
-    puts "Congratulations ${game_winner}!"
+    puts "Congratulations #{game_winner}!"
   end
 end
